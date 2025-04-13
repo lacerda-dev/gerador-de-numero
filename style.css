@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ffff;
+}
+
+header img{
+    width: 120px;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#container{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.252);
+    border-radius: 20px;
+    background-image: url('imagens/fundo.jpg');
+}
+#container h1{
+    font-weight: 600;
+    text-shadow: 2px 3px 2px rgba(76, 75, 75, 0.175);
+    margin-bottom: 20px;
+}
+#input-group{
+    display: flex;
+    padding: 50px 0px;
+    gap: 50px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input-field label{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.input-field input{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.input-field input:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button{
+    appearance: none;
+}
+#sortear{
+    padding: 15px 25px;
+    width: 80%;
+    margin: 20px 0px 40px 0px;
+    border-radius: 25px;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: #4f5053d4;
+}
+#sortear:hover{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.466);
+    transition: .5s;
+    transform: scale(1.01);
+    background-color: #4f5053cd;
+}
+#resultado{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+footer{
+    margin-bottom: 60px;
+    font-size: 1rem;
+}
