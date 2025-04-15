@@ -4,7 +4,7 @@ const resultadoElemento = document.getElementById('valor-resultado');
 function gerarNumeroAleatorioComSuspense(inicio, fim, elementoResultado) {
   let intervaloId;
   let contador = inicio;
-  const duracaoSuspense = 3500; // Duração total do efeito de suspense em milissegundos
+  const duracaoSuspense = 2000; // Duração total do efeito de suspense em milissegundos
   const intervaloRotacao = 50; // Intervalo entre cada número na rotação em milissegundos
 
   function atualizarNumero() {
